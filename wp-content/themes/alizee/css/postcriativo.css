@@ -1,0 +1,183 @@
+
+
+ .post-navigation .nav-previous, .post-navigation .nav-next, .paging-navigation .nav-previous, .paging-navigation .nav-next, #today, .tagcloud a, .entry-thumb, .comment-respond input[type="submit"], .cat-link, .search-submit { 
+	background-color:#39b54a ; }
+
+	.widget-title, .widgettitle, .entry-thumb, .author-name, .site-header, .page-header, blockquote {
+border-color:#39b54a;
+}
+
+.main-navigation .current_category_item  a,
+.main-navigation .current-menu-item  a {
+	border-bottom: solid 4px #39b54a;
+}
+
+.category-videos a{
+	background-color: transparent;
+
+}
+
+.cabecalho{
+	position:absolute;
+	top:-200px;
+}
+
+.destaque-criativo{
+	width:100%;
+	overflow:hidden;
+	text-align: center;
+}
+
+.tags a{
+	background-color:#FFF;
+color:#39b54a;
+font-size:12pt;
+}
+
+
+.titulo h1{
+	font-size: 32pt;
+	color:#FFF;
+}
+.titulo{
+	display:inline-block;
+	padding:21px 10px;
+	background-color: rgba(57, 181, 74, 0.8);
+}
+.excerto{
+	padding-left:10px;
+	padding-right:10px;
+	background-color:rgba(0, 0, 0, 0.56);
+
+}
+
+.excerto p{
+	font-size: 25pt;
+	color:#FFF;
+	margin-bottom:5px;
+}
+
+.entry-title{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.content-area{
+	width:100%;
+	margin-top:10px;
+}
+
+.site-content{
+	width:100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.site-header{
+	margin-bottom:0px;
+}
+
+.destaque-criativo img {
+	max-width:none;
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+
+/*
+Theme Name: Alizee
+Layout: Four columns
+*/
+@media only screen and (max-width: 1999px) {
+
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 1199PX*/
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 991PX*/
+
+@media only screen and (max-width: 991px) {
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 749PX*/
+
+@media only screen and (max-width: 749px) {
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 499PX*/
+
+@media only screen and (max-width: 499px) {
+
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 399PX*/
+
+@media only screen and (max-width: 399px) {
+	.destaque-criativo{
+	height:800px;
+}
+
+	.excerto p{
+		font-size:20pt;
+	}
+
+	.titulo{
+		padding: 18px 10px;
+	}
+
+	.cabecalho{
+		top:-297px;
+	}
+
+	.destaque-criativo img{
+		margin-left:-307%;
+	}
+
+	.titulo .entry-title{
+		font-size: 30pt;
+	}
+
+	.tags a{
+		font-size: 14pt !important;
+	}
+
+}
+
+
+
+
+/* MEDIA QUERYS MAX-WIDTH 329PX*/
+
+@media only screen and (max-width: 329px) {
+	.destaque-criativo{
+	height:800px;
+}
+
+	.excerto p{
+		font-size:15pt;
+	}
+
+	.titulo{
+		padding: 13px 10px;
+	}
+
+	.cabecalho{
+		top:-245px;
+	}
+
+	.destaque-criativo img{
+		margin-left:-353%;
+	}
+
+	.titulo .entry-title{
+		font-size: 22pt;
+	}
+}

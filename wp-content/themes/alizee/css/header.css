@@ -1,0 +1,55 @@
+.main-navigation a {
+	font-family: 'Rex', sans-serif;
+	font-size: 15pt;
+	color: grey;
+	letter-spacing: .5px;
+}
+
+.main-navigation img {
+	float: left;
+	margin: 1% 0;
+}
+
+#menu-item-16 > a:hover {
+	border-bottom: solid 4px #be1e2d;
+}
+
+#menu-item-20 > a:hover {
+	border-bottom: solid 4px #ebc900;
+}
+
+#menu-item-21 > a:hover {
+	border-bottom: solid 4px #39b54a;
+}
+
+#menu-item-19 > a:hover {
+	border-bottom: solid 4px #8b5e00;
+}
+
+#menu-item-203 > a:hover {
+	border-bottom: solid 4px #00aeef;
+}
+
+.main-navigation li:hover {
+	background-color: transparent;
+}
+
+.main-navigation .current_page_item > #menu-item-16 a,
+.main-navigation .current-menu-item > #menu-item-16 a {
+	border-bottom: solid 4px #be1e2d;
+}
+
+.menu-toggle {
+	float: right;
+	margin-top: 32px;
+}
+
+h1 {
+	font-family: 'Rex';
+	font-weight: 0;
+}
+
+p {
+	font-family: 'PT Serif';
+	font-size: 9pt;
+}

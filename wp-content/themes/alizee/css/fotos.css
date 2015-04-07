@@ -1,0 +1,41 @@
+ .post-navigation .nav-previous, .post-navigation .nav-next, .paging-navigation .nav-previous, .paging-navigation .nav-next, #today, .tagcloud a, .entry-thumb, .comment-respond input[type="submit"], .cat-link, .search-submit { 
+	background-color: #8b5e00 }
+
+	.widget-title, .widgettitle, .entry-thumb, .author-name, .site-header, .page-header, blockquote {
+border-color: #8b5e00;
+}
+
+.main-navigation .current_page_item  a,
+.main-navigation .current-menu-item  a {
+	border-bottom: solid 4px  #8b5e00;
+}
+.main-navigation a {
+	background-color:transparent;
+}
+
+.category-fotos a{
+	background-color: transparent;
+
+}
+
+.tags a{
+background-color:#8b5e00;
+
+}
+
+.content-area{
+	width:100%;
+}
+
+.hentry {
+	width: 275px;
+	height: 166px;
+	margin: 0 10px 10px 0;	
+}
+.has-post-thumbnail {
+	height: 342px;
+}
+.entry-thumb{
+	height: 166px;
+}
+

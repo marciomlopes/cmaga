@@ -1,0 +1,10 @@
+ .post-navigation .nav-previous, .post-navigation .nav-next, .paging-navigation .nav-previous, .paging-navigation .nav-next, #today, .tagcloud a, .comment-respond input[type="submit"], .cat-link, .search-submit { 
+	background-color: rgba(39,55,71,1); }
+
+	.widget-title, .widgettitle, .entry-thumb, .author-name, .site-header, .page-header, blockquote {
+border-color: rgba(39,55,71,1);
+}
+
+.content-area{
+	width:100%;
+}

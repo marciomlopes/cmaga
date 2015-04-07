@@ -1,0 +1,131 @@
+/*
+Theme Name: Alizee
+Layout: Four columns
+*/
+@media only screen and (max-width: 1999px) {
+	.home .hentry, .category .hentry, .tag .hentry  {
+		width: 275px;
+		height: 166px;
+		margin: 0 10px 10px 0;
+	}
+	.home .has-post-thumbnail, .category .has-post-thumbnail, .tag .has-post-thumbnail {
+		height: 342px;
+	}
+	.entry-thumb{
+		height: 166px;
+	}
+	.home .category-criativos{
+		width:560px;
+		height:166px;
+	}
+
+	.category-destaque .entry-thumb {
+	height: 347px;
+}
+	
+}
+
+/* MEDIA QUERYS MAX-WIDTH 1199PX*/
+
+@media only screen and (max-width: 1199px) {
+	.home .hentry, .category .hentry, .tag .hentry {
+		width: 293.33333px;
+	}	
+
+	.home .category-criativos{
+		width:596px;
+		height:166px;
+	}
+}
+
+/* MEDIA QUERYS MAX-WIDTH 991PX*/
+
+@media only screen and (max-width: 991px) {
+	.home .hentry, .category .hentry, .tag .hentry {
+		width: 315px;
+	}
+		.home .category-criativos{
+		width:640px;
+		height:166px;
+	}
+}
+
+/* MEDIA QUERYS MAX-WIDTH 749PX*/
+
+@media only screen and (max-width: 749px) {
+	.home .hentry, .category .hentry, .tag .hentry {
+		width: 395px;
+		height:210px;
+		margin-right: 0;
+	}
+
+	.home .has-post-thumbnail, .category .has-post-thumbnail, .tag .has-post-thumbnail {
+		height: 380px;
+	}
+
+	.category-destaque .entry-thumb, .home .category-criativos .entry-thumb {
+	height: 385px;
+}
+}
+
+/* MEDIA QUERYS MAX-WIDTH 499PX*/
+
+@media only screen and (max-width: 499px) {
+	.home .hentry, .category .hentry, .tag .hentry {
+		width: 360px;
+		height: 230px;
+	}
+	.home .has-post-thumbnail, .category .has-post-thumbnail, .tag .has-post-thumbnail {
+		height: 380px;
+	}
+	.entry-thumb img{
+		width: 370px; 		
+	}
+
+.category-destaque .entry-thumb, .home .category-criativos .entry-thumb {
+	height: 385px;
+}
+
+}
+
+/* MEDIA QUERYS MAX-WIDTH 399PX*/
+
+@media only screen and (max-width: 399px) {
+	.home .hentry, .category .hentry, .tag .hentry  {
+		width: 325px;
+		height: 225px;
+	}
+	.home .has-post-thumbnail, .category .has-post-thumbnail, .tag .has-post-thumbnail {
+		height: 380px;
+	}
+	
+	.category-destaque .entry-thumb,.home .category-criativos .entry-thumb {
+	height: 385px;
+}
+	.entry-thumb img{
+		width: 340px; 		
+	}
+	
+	.tags a{
+		font-size:12pt;
+	}
+}
+
+
+/* MEDIA QUERYS MAX-WIDTH 329PX*/
+
+@media only screen and (max-width: 329px) {
+		.home .hentry, .category .hentry, .tag .hentry {
+		width: 290px;
+		height: 180,5px;
+	}
+	.home .has-post-thumbnail, .category .has-post-thumbnail, .tag .has-post-thumbnail {
+		height: 370px;
+	}
+	.category-destaque .entry-thumb, .home .category-criativos .entry-thumb {
+	height: 375px;
+}
+	.entry-thumb img{
+		width: 290px; 		
+	}
+}

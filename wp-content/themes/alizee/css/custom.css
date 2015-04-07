@@ -1,0 +1,428 @@
+.main-navigation a {
+	font-family: 'Rex', sans-serif;
+	font-size: 15pt;
+	color: grey;
+	letter-spacing: .5px;
+}
+
+.article {
+	overflow: hidden;
+}
+
+.main-navigation img {
+	float: left;
+	margin: 1% 0;
+}
+
+#menu-item-16 > a:hover {
+	border-bottom: solid 4px #be1e2d;
+}
+
+#menu-item-20 > a:hover {
+	border-bottom: solid 4px #ebc900;
+}
+
+#menu-item-21 > a:hover {
+	border-bottom: solid 4px #39b54a;
+}
+
+#menu-item-19 > a:hover {
+	border-bottom: solid 4px #8b5e00;
+}
+
+#menu-item-203 > a:hover {
+	border-bottom: solid 4px #00aeef;
+}
+
+.main-navigation li:hover {
+	background-color: transparent;
+}
+
+.main-navigation .current_page_item > #menu-item-16 a,
+.main-navigation .current-menu-item > #menu-item-16 a {
+	border-bottom: solid 4px #be1e2d;
+}
+
+.menu-toggle {
+	float: right;
+	margin-top: 32px;
+}
+
+h1 {
+	font-family: 'Rex';
+	font-weight: 0;
+}
+
+p {
+	font-family: 'PT Serif';
+	font-size: 9pt;
+}
+
+/* MEDIA QUERYS MAX-WIDTH 1366PX*/
+@media only screen and (max-width: 1366px) {
+	.entry-title {
+		margin-bottom: 5px;
+	}
+	
+	p {
+		font-size: 10pt;
+	}
+	
+	.post-content {
+		padding-top: 15px;
+	}
+	
+	.entry-meta {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 749px) {
+	.entry-title {
+		margin-top: 5px;
+	}
+	
+	.entry-title a {
+		font-size: 17pt;
+		line-height: 20px;
+	}
+	
+	p {
+		font-size: 13pt;
+	}
+	
+	.tags a {
+		font-size: 12pt !important;
+	}
+}
+
+/* MEDIA QUERYS MAX-WIDTH 499PX*/
+@media only screen and (max-width: 499px) {
+	
+}
+
+/* MEDIA QUERYS MAX-WIDTH 399PX*/
+@media only screen and (max-width: 399px) {
+	p {
+		font-size: 14pt;
+	}
+	
+	.post-content {
+		padding-top: 15px;
+	}
+	
+	.entry-title a {
+		font-size: 19pt;
+	}
+	
+	.entry-title {
+		margin-bottom: 10px;
+		line-height: 20px;
+	}
+	
+	.entry-summary p {
+		line-height: 20px;
+		margin-bottom: 6px;
+	}
+	
+	.entry-meta {
+		margin-bottom: 3px;
+	}
+	
+	.tags a {
+		font-size: 12pt !important;
+	}
+}
+
+.category-criativos img {
+	height: 100%;
+	width: auto;
+	max-width: none;
+}
+
+@media only screen and (max-width: 329px) {
+	p {
+		font-size: 12pt;
+	}
+	
+	.post-content {
+		padding-top: 15px;
+	}
+	
+	.entry-title a {
+		font-size: 17pt;
+	}
+	
+	.entry-title {
+		margin-bottom: 10px;
+		line-height: 20px;
+	}
+	
+	.entry-summary p {
+		line-height: 18px;
+		margin-bottom: 6px;
+	}
+	
+	.entry-meta {
+		margin-bottom: 3px;
+	}
+	
+	.tags a {
+		font-size: 12pt !important;
+	}
+}
+
+.category-criativos img {
+	height: 100%;
+	width: auto;
+	max-width: none;
+}
+
+/*cor das categorias nos thumbnails dos posts*/
+/*NOTICIAS*/
+.category-noticias a {
+	background-color: #be1e2d;
+}
+
+.category-noticias div {
+	border-color: #be1e2d;
+}
+
+.category-noticias .entry-thumb:before {
+	background-color: #be1e2d;
+}
+
+.category-noticias .entry-thumb:hover:before {
+	background-color: #be1e2d;
+}
+
+.category-noticias .entry-title a:hover {
+	color: #be1e2d;
+}
+
+/*VIDEOS*/
+.category-videos a {
+	background-color: #ebc900;
+}
+
+.category-videos .entry-thumb:hover {
+	background-color: #ebc900;
+}
+
+.category-videos .entry-thumb {
+	background-color: #ebc900;
+}
+
+.category-videos .entry-title a:hover {
+	color: #ebc900;
+}
+
+/*CRIATIVOS*/
+.category-criativos .tags a {
+	background-color: #FFF;
+	color: #39b54a;
+}
+
+.category-criativos .entry-thumb {
+	border: none;
+}
+
+.category-criativos .entry-thumb:hover {
+	background-color: #39b54a;
+}
+
+.category-criativos .entry-thumb {
+	background-color: #39b54a;
+}
+
+.category-criativos .entry-thumb img {
+	opacity: .5;
+}
+
+.category-criativos .entry-thumb img:hover {
+	opacity: .2;
+}
+
+.category-criativos .entry-header {
+	padding-top: 0;
+	position: absolute;
+	top: 134px;
+	left: 19px;
+}
+
+.category-criativos .entry-title a {
+	color: white;
+}
+
+.category-criativos .entry-summary {
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+}
+
+.category-criativos .entry-summary p {
+	font-family: 'Rex';
+	font-size: 19pt;
+	text-shadow: 2px 2px 1px #000;
+}
+
+.category-criativos .tags {
+	float: right;
+}
+
+.category-criativos .base {
+	padding-right: 25px;
+}
+
+.category-criativos .entry-meta {
+	display: none;
+}
+
+/*FOTOS*/
+.category-fotos a {
+	background-color: #8b5e00;
+}
+
+.category-fotos div {
+	border-color: #8b5e00;
+}
+
+.category-fotos .entry-thumb:hover {
+	background-color: #8b5e00;
+}
+
+.category-fotos .entry-thumb {
+	background-color: #8b5e00;
+}
+
+.category-fotos .entry-title a:hover {
+	color: #8b5e00;
+}
+
+/*AGENDA*/
+.category-agenda a {
+	background-color: #00aeef;
+}
+
+.category-agenda div {
+	border-color: #00aeef;
+}
+
+.category-agenda .entry-title a:hover {
+	color: #8b5e00;
+}
+
+/*DESTAQUES*/
+.category-destaque img {
+	opacity: .3;
+	height: 100%;
+	width: auto;
+	max-width: none;
+}
+
+.category-destaque img:hover {
+	opacity: .1;
+}
+
+.category-destaque .entry-title {
+	position: absolute;
+	top: 0;
+	padding: 15px 20px 10px 10px;
+}
+
+.category-destaque .entry-title a {
+	font-size: 24pt;
+	color: white;
+	line-height: 40px;
+}
+
+.category-destaque .entry-title a:hover {
+	color: white;
+}
+
+.category-destaque .entry-meta a {
+	color: white;
+}
+
+.category-destaque > .category-noticias a {
+	background-color: #FFF;
+	color: #be1e2d;
+}
+
+/*Fim das categorias*/
+.post-content {
+	padding-top: 0;
+}
+
+.entry-header a {
+	background-color: transparent !important;
+}
+
+.tags {
+	float: left;
+}
+
+.tags a {
+	font-family: 'PT Sans Narrow';
+	font-size: 10pt;
+	padding: 0 2px;
+	color: #FFF;
+}
+
+.entry-meta {
+	position: absolute;
+	right: 14px;
+	float: right;
+	bottom: -1px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.entry-meta a {
+	background-color: transparent;
+	font-size: 8pt;
+}
+
+.entry-summary p {
+	margin-bottom: 0;
+}
+
+.entry-date {
+	font-family: 'PT Sans Narrow';
+}
+
+.base {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+}
+
+.type-video {
+	border-top: 5px solid #ebc900;
+}
+
+.type-noticia {
+	border-top: 5px solid #be1e2d;
+}
+
+.type-criativo {
+	border-top: 5px solid #39b54a;
+}
+
+.type-foto {
+	border-top: 5px solid #8b5e00;
+}
+
+.type-evento {
+	border-top: 5px solid #00aeef;
+}
+
+.has-post-thumbnail {
+	border-top: none;
+}
+
+.has-post-thumbnail header {
+	padding-top: 10px;
+}
